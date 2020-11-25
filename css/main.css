@@ -42,7 +42,6 @@ body {
   height: 2000px;
 }
 main {
-  padding: 15px 0 0;
   overflow: hidden;
   position: relative;
 }
@@ -70,7 +69,7 @@ p {
   background-color: #fff;
 }
 .navbar-brand {
-  height: 100px;
+  height: 90px;
 }
 .navbar-brand img {
   height: 100%;
