@@ -1,0 +1,221 @@
+/* --------------------------
+:: Template Name: 
+:: Description: 
+:: Created: 25/11/2020  MM/DD/YYYY
+-------------------------- */
+
+/* ----------------------
+
+[Table of contents]
+01.Base CSS
+02.Header CSS
+03.main content
+04.Footer
+
+
+ --------------------------*/
+
+/*  ----------- 01- Start Base CSS  ----------- */
+
+:root {
+  --main-blue-color: #4885ed;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  color: inherit !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+li {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  position: relative;
+}
+main {
+  padding: 15px 0 0;
+  overflow: hidden;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+@media (max-width: 992px) {
+  p {
+    font-size: 15px;
+  }
+}
+
+.bg-light {
+  background-color: #fff !important;
+}
+
+/*  ----------- 01 -End Base CSS   -----------*/
+
+/* ----------- 02 -Start Header CSS   -----------*/
+.Header {
+  background-color: #fff;
+}
+.navbar-brand {
+  height: 100px;
+}
+.navbar-brand img {
+  height: 100%;
+  max-height: 100%;
+  max-width: 100%;
+}
+.Header .collapse {
+  margin-top: -20px;
+}
+.Header .nav-item {
+  margin-right: 30px;
+  font-size: 18px;
+}
+.Header .navbar-nav li {
+  padding-bottom: 0 !important;
+}
+.Header .navbar-nav .active a,
+.Header .navbar-nav .active a:hover,
+.Header .navbar-nav li:hover {
+  border-bottom: 2px solid #4885ed;
+}
+.navbar {
+  width: 90%;
+}
+/* ----------- 02 -End Header CSS   -----------*/
+
+.main-img {
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+}
+.main-img img {
+  width: 500px;
+  height: 350px;
+}
+@media (max-width: 992px) {
+  .main-img img {
+    width: 400px;
+    height: 250px;
+  }
+}
+@media (max-width: 776px) {
+  .main-img img {
+    display: none;
+  }
+}
+.centred-div {
+  margin: 4% auto;
+  width: 600px;
+
+  height: 400px;
+  text-align: center;
+}
+.centred-div .title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.centred-div .blue-title {
+  color: #4885ed;
+  margin-left: 15px;
+}
+.centred-div p {
+  font-size: 22px;
+  margin: 15px 0 35px;
+}
+.centred-div .btn {
+  padding: 15px 25px;
+}
+.play-vidoe {
+  margin: 48px auto 25px;
+  cursor: pointer;
+}
+@media (max-width: 992px) {
+  .play-vidoe {
+    margin: 35px auto 15px;
+  }
+}
+.play-vidoe-img {
+  margin: 8px auto;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid #4885ed;
+  line-height: 60px;
+}
+.play-vidoe-img:hover {
+  border: 2px solid #3a72d3;
+}
+@media (max-width: 992px) {
+  .play-vidoe-img {
+    width: 50px;
+    height: 50px;
+    line-height: 42px;
+  }
+}
+.play-vidoe p {
+  font-size: 12px;
+  color: #000;
+  opacity: 0.5;
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 40px;
+}
+@media (max-width: 992px) {
+  .play-vidoe-img p {
+    font-size: 10px;
+    height: 20px;
+  }
+}
+.content-sites {
+  margin: 0 0 100px;
+}
+@media (max-width: 992px) {
+  .content-sites {
+    margin: 0 0 70px;
+  }
+}
+@media (max-width: 776px) {
+  .content-sites {
+    text-align: center;
+  }
+}
+.content-sites > div {
+  display: inline-block;
+  margin-right: 40px;
+}
+@media (max-width: 992px) {
+  .content-sites > div {
+    margin-right: 10px;
+  }
+}
+
+.note {
+  padding-left: 14px;
+  margin-right: -20px !important;
+}
+.note-content {
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.footer {
+  background-color: #4885ed;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
