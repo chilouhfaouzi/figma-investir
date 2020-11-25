@@ -44,6 +44,7 @@ body {
 main {
   overflow: hidden;
   position: relative;
+  height: 100vh;
 }
 
 p {
@@ -67,10 +68,10 @@ p {
 /* ----------- 02 -Start Header CSS   -----------*/
 .Header {
   background-color: #fff;
-   height: 90px;
+  height: 90px;
 }
 .navbar-brand {
-  height: 90px;
+  height: 100px;
 }
 .navbar-brand img {
   height: 100%;
@@ -110,7 +111,7 @@ p {
 .main-img {
   position: absolute;
   right: 0;
-  bottom: 30px;
+  bottom: 60px;
 }
 .main-img img {
   width: 484px;
@@ -128,7 +129,8 @@ p {
   }
 }
 .centred-div {
-  margin: 2% auto;
+  /*margin: 2% auto;*/
+  margin: 20vh;
   width: 65%;
   /* height: 400px;*/
   text-align: center;
@@ -198,7 +200,10 @@ p {
   }
 }
 .content-sites {
-  margin: 0 0 100px;
+  /*margin: 0 0 100px;*/
+  position: absolute;
+  bottom: 100px;
+  /*margin-top: 40vh;*/
 }
 @media (max-width: 992px) {
   .content-sites {
