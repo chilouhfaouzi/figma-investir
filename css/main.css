@@ -67,6 +67,7 @@ p {
 /* ----------- 02 -Start Header CSS   -----------*/
 .Header {
   background-color: #fff;
+   height: 90px;
 }
 .navbar-brand {
   height: 90px;
