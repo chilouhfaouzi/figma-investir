@@ -1,5 +1,5 @@
 /* --------------------------
-:: Template Name: 
+:: Template Name: Investir Dans l'ancien
 :: Description: 
 :: Created: 25/11/2020  MM/DD/YYYY
 -------------------------- */
@@ -10,7 +10,6 @@
 01.Base CSS
 02.Header CSS
 03.main content
-04.Footer
 
 
  --------------------------*/
@@ -46,7 +45,11 @@ main {
   position: relative;
   height: 100vh;
 }
-
+@media (max-width: 992px) {
+  main {
+    height: auto;
+  }
+}
 p {
   font-family: "Times New Roman", Times, serif;
   font-weight: 400;
@@ -69,6 +72,11 @@ p {
 .Header {
   background-color: #fff;
   height: 90px;
+}
+@media (max-width: 992px) {
+  .Header {
+    height: auto;
+  }
 }
 .navbar-brand {
   height: 100px;
@@ -108,6 +116,7 @@ p {
 }
 /* ----------- 02 -End Header CSS   -----------*/
 
+/* ------ 03- Start main content  ---- */
 .main-img {
   position: absolute;
   right: 0;
@@ -138,7 +147,7 @@ p {
 @media (max-width: 992px) {
   .centred-div {
     width: 70%;
-    margin: auto;
+    margin: 22px auto;
   }
 }
 .centred-div .title {
@@ -203,11 +212,11 @@ p {
   /*margin: 0 0 100px;*/
   position: absolute;
   bottom: 100px;
-  /*margin-top: 40vh;*/
 }
 @media (max-width: 992px) {
   .content-sites {
     margin: 0 0 70px;
+    position: static;
   }
 }
 @media (max-width: 776px) {
@@ -247,3 +256,5 @@ p {
   color: #fff;
   height: 35px;
 }
+
+/* ------ 03- End main content  ---- */
